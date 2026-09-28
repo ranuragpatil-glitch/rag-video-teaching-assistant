@@ -42,7 +42,9 @@ def main():
 {new_df[result_columns].to_json(orient="records")}
 ---------------------------------
 "{incoming_query}"
-Answer questions related to these chunks in a natural way and cite the relevant timestamp. The video title and number are not included in the available data, so do not guess them. If the question is unrelated, say you can only answer questions related to the course.
+Answer questions related to these chunks in a natural way and cite the relevant timestamp.
+The video title and number are not included in the available data, so do not guess them. If the question
+is unrelated, say you can only answer questions related to the course.
 '''
     with open("prompt.txt", "w") as f:
         f.write(prompt)
