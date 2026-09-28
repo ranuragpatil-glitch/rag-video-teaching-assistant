@@ -1,0 +1,25 @@
+# Python environments and caches
+.venv*/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Secrets
+.env
+
+# User data (add your own videos locally; never commit them)
+video/*
+!video/.gitkeep
+audios/*
+!audios/.gitkeep
+jsons/*
+!jsons/.gitkeep
+
+# Generated files
+*.joblib
+prompt.txt
+promt.txt
+response.txt
